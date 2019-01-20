@@ -1,0 +1,107 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Merukoo\Logo-Recognition-App\Camera2Basic\Application\src\main\AndroidManifest.xml:17:1-45:12
+MERGED from [com.android.support:support-v13:27.0.2] C:\Users\Merukoo\.gradle\caches\transforms-1\files-1.1\support-v13-27.0.2.aar\a9e986da5d5eb8540e5eb20a3db6429b\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-v4:27.0.2] C:\Users\Merukoo\.gradle\caches\transforms-1\files-1.1\support-v4-27.0.2.aar\d0add30cf71f984abe498804239fef50\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:27.0.2] C:\Users\Merukoo\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.0.2.aar\58b8f6df7ae648a3cfe8c94b93f3a23b\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:appcompat-v7:27.0.2] C:\Users\Merukoo\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\44f629ca077d2ff697bb4d59c0123b9d\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.0.2] C:\Users\Merukoo\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.0.2.aar\fb9288bea477f269e1b008657ccad792\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.0.2] C:\Users\Merukoo\.gradle\caches\transforms-1\files-1.1\support-fragment-27.0.2.aar\c7fb51342f48c5efb84e16e0950db9ec\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.0.2] C:\Users\Merukoo\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.0.2.aar\c949d629375c6f2e7be01d54a56abf1d\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] C:\Users\Merukoo\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.0.2.aar\5083d3a5f97e778acdf527f88a42535e\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.0.2] C:\Users\Merukoo\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.0.2.aar\e19703cd7c356d1fe77ef811f2e01e74\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.0.2] C:\Users\Merukoo\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.0.2.aar\241116ae167feeb98d2e8ba8ea51d081\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.0.2] C:\Users\Merukoo\.gradle\caches\transforms-1\files-1.1\support-compat-27.0.2.aar\0e34a0a70e8394a55ab6a52b3ca09036\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.0.3] C:\Users\Merukoo\.gradle\caches\transforms-1\files-1.1\runtime-1.0.3.aar\cfa12a026833f962add7fdc64c5902d6\AndroidManifest.xml:17:1-24:12
+	package
+		ADDED from C:\Merukoo\Logo-Recognition-App\Camera2Basic\Application\src\main\AndroidManifest.xml:18:5-47
+	xmlns:android
+		ADDED from C:\Merukoo\Logo-Recognition-App\Camera2Basic\Application\src\main\AndroidManifest.xml:17:11-69
+uses-permission#android.permission.CAMERA
+ADDED from C:\Merukoo\Logo-Recognition-App\Camera2Basic\Application\src\main\AndroidManifest.xml:20:5-65
+	android:name
+		ADDED from C:\Merukoo\Logo-Recognition-App\Camera2Basic\Application\src\main\AndroidManifest.xml:20:22-62
+uses-feature#android.hardware.camera
+ADDED from C:\Merukoo\Logo-Recognition-App\Camera2Basic\Application\src\main\AndroidManifest.xml:22:5-60
+	android:name
+		ADDED from C:\Merukoo\Logo-Recognition-App\Camera2Basic\Application\src\main\AndroidManifest.xml:22:19-57
+uses-feature#android.hardware.camera.autofocus
+ADDED from C:\Merukoo\Logo-Recognition-App\Camera2Basic\Application\src\main\AndroidManifest.xml:23:5-70
+	android:name
+		ADDED from C:\Merukoo\Logo-Recognition-App\Camera2Basic\Application\src\main\AndroidManifest.xml:23:19-67
+application
+ADDED from C:\Merukoo\Logo-Recognition-App\Camera2Basic\Application\src\main\AndroidManifest.xml:25:5-39:19
+	android:label
+		ADDED from C:\Merukoo\Logo-Recognition-App\Camera2Basic\Application\src\main\AndroidManifest.xml:27:9-41
+	android:icon
+		ADDED from C:\Merukoo\Logo-Recognition-App\Camera2Basic\Application\src\main\AndroidManifest.xml:28:9-45
+	android:allowBackup
+		ADDED from C:\Merukoo\Logo-Recognition-App\Camera2Basic\Application\src\main\AndroidManifest.xml:26:9-35
+	android:theme
+		ADDED from C:\Merukoo\Logo-Recognition-App\Camera2Basic\Application\src\main\AndroidManifest.xml:29:9-45
+activity#com.example.android.camera2basic.CameraActivity
+ADDED from C:\Merukoo\Logo-Recognition-App\Camera2Basic\Application\src\main\AndroidManifest.xml:31:9-38:20
+	android:label
+		ADDED from C:\Merukoo\Logo-Recognition-App\Camera2Basic\Application\src\main\AndroidManifest.xml:33:13-45
+	android:name
+		ADDED from C:\Merukoo\Logo-Recognition-App\Camera2Basic\Application\src\main\AndroidManifest.xml:32:13-43
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Merukoo\Logo-Recognition-App\Camera2Basic\Application\src\main\AndroidManifest.xml:34:13-37:29
+action#android.intent.action.MAIN
+ADDED from C:\Merukoo\Logo-Recognition-App\Camera2Basic\Application\src\main\AndroidManifest.xml:35:17-69
+	android:name
+		ADDED from C:\Merukoo\Logo-Recognition-App\Camera2Basic\Application\src\main\AndroidManifest.xml:35:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Merukoo\Logo-Recognition-App\Camera2Basic\Application\src\main\AndroidManifest.xml:36:17-77
+	android:name
+		ADDED from C:\Merukoo\Logo-Recognition-App\Camera2Basic\Application\src\main\AndroidManifest.xml:36:27-74
+uses-permission#android.permission.INTERNET
+ADDED from C:\Merukoo\Logo-Recognition-App\Camera2Basic\Application\src\main\AndroidManifest.xml:41:5-67
+	android:name
+		ADDED from C:\Merukoo\Logo-Recognition-App\Camera2Basic\Application\src\main\AndroidManifest.xml:41:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\Merukoo\Logo-Recognition-App\Camera2Basic\Application\src\main\AndroidManifest.xml:42:5-79
+	android:name
+		ADDED from C:\Merukoo\Logo-Recognition-App\Camera2Basic\Application\src\main\AndroidManifest.xml:42:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from C:\Merukoo\Logo-Recognition-App\Camera2Basic\Application\src\main\AndroidManifest.xml:43:5-76
+	android:name
+		ADDED from C:\Merukoo\Logo-Recognition-App\Camera2Basic\Application\src\main\AndroidManifest.xml:43:22-73
+uses-sdk
+INJECTED from C:\Merukoo\Logo-Recognition-App\Camera2Basic\Application\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Merukoo\Logo-Recognition-App\Camera2Basic\Application\src\main\AndroidManifest.xml
+INJECTED from C:\Merukoo\Logo-Recognition-App\Camera2Basic\Application\src\main\AndroidManifest.xml
+MERGED from [com.android.support:support-v13:27.0.2] C:\Users\Merukoo\.gradle\caches\transforms-1\files-1.1\support-v13-27.0.2.aar\a9e986da5d5eb8540e5eb20a3db6429b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v13:27.0.2] C:\Users\Merukoo\.gradle\caches\transforms-1\files-1.1\support-v13-27.0.2.aar\a9e986da5d5eb8540e5eb20a3db6429b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.0.2] C:\Users\Merukoo\.gradle\caches\transforms-1\files-1.1\support-v4-27.0.2.aar\d0add30cf71f984abe498804239fef50\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.0.2] C:\Users\Merukoo\.gradle\caches\transforms-1\files-1.1\support-v4-27.0.2.aar\d0add30cf71f984abe498804239fef50\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.0.2] C:\Users\Merukoo\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.0.2.aar\58b8f6df7ae648a3cfe8c94b93f3a23b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.0.2] C:\Users\Merukoo\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.0.2.aar\58b8f6df7ae648a3cfe8c94b93f3a23b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.0.2] C:\Users\Merukoo\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\44f629ca077d2ff697bb4d59c0123b9d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.0.2] C:\Users\Merukoo\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\44f629ca077d2ff697bb4d59c0123b9d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.0.2] C:\Users\Merukoo\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.0.2.aar\fb9288bea477f269e1b008657ccad792\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.0.2] C:\Users\Merukoo\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.0.2.aar\fb9288bea477f269e1b008657ccad792\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.0.2] C:\Users\Merukoo\.gradle\caches\transforms-1\files-1.1\support-fragment-27.0.2.aar\c7fb51342f48c5efb84e16e0950db9ec\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.0.2] C:\Users\Merukoo\.gradle\caches\transforms-1\files-1.1\support-fragment-27.0.2.aar\c7fb51342f48c5efb84e16e0950db9ec\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.0.2] C:\Users\Merukoo\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.0.2.aar\c949d629375c6f2e7be01d54a56abf1d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.0.2] C:\Users\Merukoo\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.0.2.aar\c949d629375c6f2e7be01d54a56abf1d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] C:\Users\Merukoo\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.0.2.aar\5083d3a5f97e778acdf527f88a42535e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] C:\Users\Merukoo\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.0.2.aar\5083d3a5f97e778acdf527f88a42535e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.2] C:\Users\Merukoo\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.0.2.aar\e19703cd7c356d1fe77ef811f2e01e74\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.2] C:\Users\Merukoo\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.0.2.aar\e19703cd7c356d1fe77ef811f2e01e74\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.0.2] C:\Users\Merukoo\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.0.2.aar\241116ae167feeb98d2e8ba8ea51d081\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.0.2] C:\Users\Merukoo\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.0.2.aar\241116ae167feeb98d2e8ba8ea51d081\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.2] C:\Users\Merukoo\.gradle\caches\transforms-1\files-1.1\support-compat-27.0.2.aar\0e34a0a70e8394a55ab6a52b3ca09036\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.2] C:\Users\Merukoo\.gradle\caches\transforms-1\files-1.1\support-compat-27.0.2.aar\0e34a0a70e8394a55ab6a52b3ca09036\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.0.3] C:\Users\Merukoo\.gradle\caches\transforms-1\files-1.1\runtime-1.0.3.aar\cfa12a026833f962add7fdc64c5902d6\AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.3] C:\Users\Merukoo\.gradle\caches\transforms-1\files-1.1\runtime-1.0.3.aar\cfa12a026833f962add7fdc64c5902d6\AndroidManifest.xml:20:5-22:41
+INJECTED from C:\Merukoo\Logo-Recognition-App\Camera2Basic\Application\src\main\AndroidManifest.xml
+INJECTED from C:\Merukoo\Logo-Recognition-App\Camera2Basic\Application\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Merukoo\Logo-Recognition-App\Camera2Basic\Application\src\main\AndroidManifest.xml
+		ADDED from C:\Merukoo\Logo-Recognition-App\Camera2Basic\Application\src\main\AndroidManifest.xml
+		INJECTED from C:\Merukoo\Logo-Recognition-App\Camera2Basic\Application\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Merukoo\Logo-Recognition-App\Camera2Basic\Application\src\main\AndroidManifest.xml
+		ADDED from C:\Merukoo\Logo-Recognition-App\Camera2Basic\Application\src\main\AndroidManifest.xml
+		INJECTED from C:\Merukoo\Logo-Recognition-App\Camera2Basic\Application\src\main\AndroidManifest.xml
